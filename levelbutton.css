@@ -1,0 +1,66 @@
+html, body{
+    height:100%;
+  }
+  
+  body {
+     padding: 0;
+     overflow: hidden;
+     background-image: url(background4.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position:center ;
+   }
+  
+  
+  .fullbackground{
+     position: relative; 
+     z-index:-10;
+  }
+  
+   .Minotaur {
+     position: fixed;
+     width: 20%;
+     height: auto;
+     z-index: 10;
+     top: 15%;
+     left: 40%;
+     animation: fadeOut 0s forwards, fadeIn 2s forwards 10s, scaleAnimation 1s infinite alternate;
+   }
+  
+   @keyframes scaleAnimation {
+     from {
+       transform: scale(1);
+     }
+     to {
+       transform: scale(1.01);
+     }
+   }
+
+   
+ 
+#container {
+    background-color: rgba(204, 255, 255, 1);
+   padding: -20px;
+   position:absolute;
+   bottom: 0;
+   margin-bottom: 20px;
+   margin-left: 125px;
+   margin-right: 20px;
+   width: 75%;
+   border-width: 40px;
+   border-style: solid; 
+   border-image-source: url(border.png); 
+   border-image-slice: 120 fill; 
+   border-image-repeat: round;
+   animation: fadeOut 0s forwards, fadeIn 2s forwards 10s;
+   border-radius: 10px;
+   display: inline;
+}
+h2 {
+    margin-bottom: 20px;
+}
+.result {
+  font-weight: bold;
+  align-items: center;
+}
+

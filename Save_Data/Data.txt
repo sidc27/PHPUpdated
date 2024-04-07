@@ -1,0 +1,12 @@
+Frank,1234,19
+Jason,2576,13
+Alex,5567,11
+Fredy,9527,10
+John,2223,9
+Killy,wkasd,8
+willson,123897,7
+Lucy,2875,6
+JJ,2342,5
+jsfoa,22333,4
+Exist,9999,0
+abc,def,0
